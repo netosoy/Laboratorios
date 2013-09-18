@@ -32,6 +32,7 @@ int main(void){
   for(int i=0; i<SIZE; i++){
     cout<<i<<".) "<<ptr_arreglo[i]<<endl;
   }
+
   dar_memoria_doble_puntero(&ptr_arreglo);
   cout<<"\n\nDespués de la función dar_memoria_doble_puntero el arreglo contiene"<<endl;
   for(int i=0; i<SIZE; i++){

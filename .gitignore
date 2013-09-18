@@ -1,4 +1,7 @@
 # Ignorando archivos objeto y archivos temporales
+<<<<<<< HEAD
 
+=======
+>>>>>>> a40bee6e70a81b9164bb8315d87201e21767f426
 *.o
 *~
