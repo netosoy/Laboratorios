@@ -1,7 +1,7 @@
 #include"cuadrado.hh"
 MiCuadrado::MiCuadrado(void) : MiFigura("cuadrado"){
   //se llama al constructor de MiFigura
-  cout<<"Ejecutando el constructor de MiCirculo\n\n"<<endl;
+  cout<<"Ejecutando el constructor de MiCuadrado\n"<<endl;
 }
 bool MiCuadrado::area(void){
   cout<<"el area de un "<<nombre<<" se calcula como l^2"<<endl;
