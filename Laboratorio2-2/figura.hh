@@ -6,16 +6,16 @@ using namespace std;
 
 //declaración de prototipos
 
-class MiFigura{               //prototipo clase MiFigura
+class MiFigura{
 protected:
-  string nombre;              //único miembro, el nombre
+  string nombre;
 public:
-  MiFigura(string miNombre);  //prototipo método constructor
-  virtual ~MiFigura(void);    //prototipo método destructor
-  bool dibujar(void);         //prototipos demás métodos:
-  bool mover(void);           //
-  bool borrar(void);          //
-  virtual bool area(void){    //queda determinado por el método de la subclase
+  MiFigura(string miNombre);
+  virtual ~MiFigura(void);
+  bool dibujar(void);
+  bool mover(void);
+  bool borrar(void);
+  virtual bool area(void){
     //cout<<"Esto calculará el área de la figura"<<endl;
     return true;
   }

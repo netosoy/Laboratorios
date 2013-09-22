@@ -5,7 +5,7 @@ using namespace std;
 void dar_memoria_puntero(int *mi_arreglo){
   mi_arreglo=new int[SIZE];
   for(int i=0; i<SIZE; i++){
-    mi_arreglo[i]=i;        //asigna elementos consecutivos al arreglo de memoria
+    mi_arreglo[i]=i;
   }
   cout<<"Segun la funcion dar_memoria_puntero el arreglo contiene: "<<endl;
   for(int i=0; i<SIZE; i++){

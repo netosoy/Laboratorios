@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void cambiar_arreglo(int mi_arreglo[]){			//producto escalar de un arreglo con 10
+void cambiar_arreglo(int mi_arreglo[]){
   for(int i=0; i<10; i++){
     mi_arreglo[i] *= 10;
   }

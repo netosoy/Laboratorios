@@ -10,7 +10,7 @@ int cube(int mi_numero){
   return(mi_numero*mi_numero*mi_numero);
 };
 
-int power(int mi_numero, int (*calc_power)(int)){//recibe un puntero a una función
+int power(int mi_numero, int (*calc_power)(int)){
   return(calc_power(mi_numero));
 };
 

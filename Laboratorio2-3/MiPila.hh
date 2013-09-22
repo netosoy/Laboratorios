@@ -11,11 +11,11 @@ typedef struct S_celda{
 
 class MiPila{
 private:
-  T_celda *primer elemento;
+  T_celda *primer_elemento;
 public:
-  C_pila(void);
-  ~C_pila(void);
-  bool push(int);
-    int pull(void);
+  MiPila(void);              
+  ~MiPila(void);             
+  bool push(int);            
+  int pull(void);            
 };
 #endif
